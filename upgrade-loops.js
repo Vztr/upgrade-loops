@@ -67,3 +67,31 @@ for (let i = 0; i < placesToTravel.length; i++) {
 	if (placesToTravel[i].id == 40 || placesToTravel[i].id == 11)
 	placesToTravel.splice(i, 1);
 }
+
+//! _________ 1.6
+
+const toys = [
+	{id: 5, name: 'Buzz MyYear'}, 
+	{id: 11, name: 'Action Woman'}, 
+	{id: 23, name: 'Barbie Man'}, 
+	{id: 40, name: 'El gato con Guantes'},
+	{id: 40, name: 'El gato felix'}
+	]
+
+	for (const toyName of toys) {
+		if (toyName.name.includes("gato")) {
+			toyName.pop();
+		} 
+		
+	}
+
+//! _________ 1.7
+
+const popularToys = [];
+const toys = [
+	{id: 5, name: 'Buzz MyYear', sellCount: 10}, 
+	{id: 11, name: 'Action Woman', sellCount: 24}, 
+	{id: 23, name: 'Barbie Man', sellCount: 15}, 
+	{id: 40, name: 'El gato con Guantes', sellCount: 8},
+	{id: 40, name: 'El gato felix', sellCount: 35}
+]
